@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="main.js" defer></script>
+    <script type="module" src="main.js" defer></script>
 
     <title>Frontend Mentor | Interactive rating component</title>
     <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
         <div class="card rating-screen | bg-primary">
           <div>
             <div class="star">
-              <img class="" src="./resources/images/icon-star.svg">
+              <img class="" src="./resources/images/icon-star.svg" alt="star icon">
             </div>
             <h2 class="title | text-secondary spacer-top-200">How did we do?</h2>
             <p class="| spacer-top-050">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
@@ -40,7 +40,7 @@
       <section class="hidden" id="thanks">
         <div class="card thanks | bg-primary center">
           <div>
-            <img class="spacer-top-200" src="resources/images/illustration-thank-you.svg" width="200">
+            <img class="spacer-top-200" src="resources/images/illustration-thank-you.svg" width="200" alt="Thank you">
           </div>
           <div class="center">
             <p class="rating-selected-thanks | text-accent">You selected <span style="padding-left:.5ch; padding-right: .5ch;" id="chosen-rating"></span> out of 5</p>
